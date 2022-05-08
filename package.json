@@ -19,5 +19,7 @@
     "url": "https://github.com/NikolasMazur/Note-Taker/issues"
   },
   "homepage": "https://github.com/NikolasMazur/Note-Taker#readme",
+  "devDependencies": {},
+  "keywords": [],
   "description": ""
 }
