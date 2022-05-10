@@ -15,6 +15,7 @@ router.post("/notes", (req, res) => {
   console.log(newNote);
   console.log(req.body);
   data.unshift(newNote);
+  // Writing notes to db.json
   fs.writeFile(
     path.join(__dirname, "../db/db.json"),
     JSON.stringify(data),
@@ -27,3 +28,4 @@ router.post("/notes", (req, res) => {
   );
 });
 
+module.exports = router;
